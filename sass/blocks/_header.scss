@@ -14,6 +14,14 @@
     align-items: center;
 }
 
+.header__logo {
+    display: inline;
+}
+
+.header__logo__med {
+    display: none;
+}
+
 .header__nav {
     margin-left: auto;
 }
@@ -50,11 +58,14 @@
 }
 
 @media only screen and (max-width:565px) {
+    .header__logo {
+        display: none;
+    }
     .nav {
         display: none;
     }
 
-    .header__logo {
+    .header__logo__med {
         width: 130px;
     }
 
