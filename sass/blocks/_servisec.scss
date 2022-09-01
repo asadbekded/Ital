@@ -95,6 +95,9 @@
 
         &:nth-child(2) {
             padding: 92px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         
         &:last-child {
