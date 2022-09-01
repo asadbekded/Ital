@@ -1,0 +1,114 @@
+// -------------------------------------uslugi section begin------------------------------
+.uslugi-section{
+   padding-top: 70px;
+}
+.nas-link{
+   padding: 15px 50px;
+   text-decoration: none;
+   border: 2px solid #AEA38B;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 140%;
+   color: #424242;
+}
+.nas-link + .nas-link{
+   margin-left: 40px;
+}
+.uslugi-box{
+   padding-top: 40px;
+   margin-bottom: 115px;
+}
+.uslugi-title{
+   margin: 0px;
+   font-weight: 600;
+   font-size: 46px;
+   line-height: 63px;
+   color: #424242;
+}
+.uslugi-list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   margin-top: 60px;
+}
+.uslugi-item{
+   width: 100%;
+   max-width: 360px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.uslugi-text{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 140%;
+   color: #424242;
+   margin: 0px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.uslugi-str{
+   display: block;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 140%;
+   color: #424242;
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
+.uslugi-link{
+   display: inline-block;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   color: #FFFFFF;
+   background: #D8B152;
+   padding: 15px 50px;
+   text-decoration: none;
+   margin-bottom: 40px;
+}
+
+@media only screen and (max-width:565px) {
+   .uslugi-item{
+      text-align: left;
+      border-bottom: 2px solid #AEA38B;
+      margin-bottom: 0px;
+   }
+   .flix-item{
+      border-bottom: none;
+   }
+   .uslugi-item + .uslugi-item{
+      margin-top: 40px;
+   }
+   .uslugi-text{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      color: #424242;
+      margin-bottom: 10px;
+   }
+   .uslugi-str{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%;
+   }
+   .nas-link{
+      padding: 10px 40px;
+   }
+   .nas-link + .nas-link{
+      margin-left: 15px;
+   }
+   .uslugi-link{
+      width: 100%;
+      text-align: center;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+   }
+   
+}
