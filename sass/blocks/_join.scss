@@ -40,15 +40,18 @@
 
     .join__list {
         justify-content: center;
+        gap: 20px;
     }
 
     .join__item {
         max-width: 200px;
     }
+
 }
 
 @media only screen and (max-width:477px) {
     .join__item {
         max-width: 150px;
     }
+    
 }
