@@ -1,123 +1,131 @@
-.hero__inner_activ{ 
+.hero__inner_activ {
 
    margin-bottom: 140px;
 }
-   .hero__inner__title{  
-    margin: 0;
-    font-weight: 600;
-font-size: 46px;
-line-height: 63px;
-color: #424242; 
-margin-bottom: 50px;
-margin-top: 60px;
-  } 
 
-  .hero__inner__blog__list{   
-   position: relative;
-    margin-top: 45px;
-   list-style: none; 
-   padding-left: 0; 
-   display: flex;  
-   justify-content: space-between;
-   flex-wrap: wrap; 
-
-    &::before{  
-      position: absolute; 
-      top: 0; 
-      right: 0;
-      bottom: 0; 
-       left: 0;
-       width: 1120px; 
-       height: 261px;
-      background-image: url("../images/bag-img-hero2.png"); 
-      background-repeat: no-repeat; 
-      content: '';
-    }
-  } 
-
-  .hero__inner__blog__item{ 
-
-    width: 100%; 
-    max-width: 340px;  
-    margin: 45px 20px;
-          
-     &:nth-child(3){ 
-
-        margin-right: 0px;
-     }
-       
-    &:nth-child(5){ 
-
-        margin-right: 0px;
-     }
-     &:nth-child(4){ 
-
-        margin-left: 400px;
-     }
-  } 
-  .hero__inner__blog__title{   
-    margin: 0;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 49px;
-    text-align: center;
-    color: #424242;
-    margin-bottom: 20px;
-  }  
-  .hero__inner__blog__subtitle{ 
-
-    margin-bottom: 70px;
-  }
-
-  .hero__inner__blog__text{ 
-
-    font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-text-align: center;
-color: #424242;
-  } 
- .hero__inner__blog__link{  
-    background-color: #AEA38B;
-    display: inline-block; 
-    text-decoration: none;  
-    width: 340px;  
-    height: 100px;
-    margin-right: 40px ; 
-    padding: 25px 20px ; 
-    text-align: center; 
-    font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #FFFFFF; 
-vertical-align: middle; 
-&:nth-child(2) { 
-
-    padding: 36px 20px;
-} 
-&:nth-child(3) { 
-
-    margin-right: 0;
+.hero__inner__title {
+   margin: 0;
+   font-weight: 600;
+   font-size: 46px;
+   line-height: 63px;
+   color: #424242;
+   margin-bottom: 50px;
+   margin-top: 60px;
 }
 
- }  
+.hero__inner__blog__list {
+   position: relative;
+   margin-top: 45px;
+   list-style: none;
+   padding-left: 0;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
 
- .hero__inner__blocks{ 
+   &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 1120px;
+      height: 261px;
+      background-image: url("../images/bag-img-hero2.png");
+      background-repeat: no-repeat;
+      content: '';
+   }
+}
 
-    display: flex;  
-    align-items: center;
-    justify-content: space-between;
- }
+.hero__inner__blog__item {
 
- .hero__inner__blocks__img:nth-child(1){ 
-    
-    margin-right: 30px;
- } 
- .hero__inner__blocks__text{ 
+   width: 100%;
+   max-width: 340px;
+   margin: 45px 20px;
 
-    width: 540px; 
-    font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-color: #424242;
- }
+   &:nth-child(3) {
+
+      margin-right: 0px;
+   }
+
+   &:nth-child(5) {
+
+      margin-right: 0px;
+   }
+
+   &:nth-child(4) {
+
+      margin-left: 400px;
+   }
+}
+
+.hero__inner__blog__title {
+   margin: 0;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 49px;
+   text-align: center;
+   color: #424242;
+   margin-bottom: 20px;
+}
+
+.hero__inner__blog__subtitle {
+
+   margin-bottom: 70px;
+}
+
+.hero__inner__blog__text {
+
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   text-align: center;
+   color: #424242;
+}
+
+.hero__inner__blog__link {
+   background-color: #AEA38B;
+   display: inline-block;
+   text-decoration: none;
+   width: 340px;
+   height: 100px;
+   margin-right: 40px;
+   padding: 25px 20px;
+   text-align: center;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color: #FFFFFF;
+   vertical-align: middle;
+
+   &:nth-child(2) {
+
+      padding: 36px 20px;
+   }
+
+   &:nth-child(3) {
+
+      margin-right: 0;
+   }
+
+}
+
+.hero__inner__blocks {
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.hero__inner__blocks__img:nth-child(1) {
+
+   margin-right: 30px;
+}
+
+.hero__inner__blocks__text {
+
+   width: 540px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color: #424242;
+}
