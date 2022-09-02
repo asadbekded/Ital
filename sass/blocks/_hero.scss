@@ -1,5 +1,5 @@
 .hero__inner {
-    padding: 25px 0 315px 0;
+    padding: 25px 0 345px 0;
 }
 
 .header__bg {
@@ -48,11 +48,20 @@
     border: none;
     background-color: #D8B152;
     padding: 18px 0;
+    border: 1px solid transparent;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid  #D8B152;
+        color: #D8B152;
+        background-color: transparent;
+    }
 }
 
 @media only screen and (max-width:565px) {
     .hero__inner {
-        padding: 15px 0 215px 0;
+        padding: 25px 0 415px 0;
     }
 
     .hero__info {
