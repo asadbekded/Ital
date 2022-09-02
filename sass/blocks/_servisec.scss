@@ -50,6 +50,10 @@
     color: #FFFFFF;
 }
 
+.servisec__links {
+    text-decoration: none;
+}
+
 .servisec__span {
     display: block;
     margin-bottom: 30px;
@@ -70,7 +74,14 @@
     text-align: center;
     color: #FFFFFF;
     background-color: #D8B152;
-    border: none;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid #D8B152;
+    }
 }
 
 @media only screen and (max-width:565px) {

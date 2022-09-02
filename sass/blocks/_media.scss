@@ -1,0 +1,23 @@
+
+.media__inner {
+    padding: 32px 0 140px 0;
+}
+.media__img {
+    max-width: 360px;
+    width: 100%;
+    padding: 161px 45px;
+    background-image: url("../images/Index_file/servisec__img-3.png");
+    background-repeat: no-repeat;
+    background-size: 360px 360px;
+    text-align: center;
+    transition: 0.3s ease;
+
+    &:nth-child(2) {
+        padding: 116px 45px;
+        background-image: url("../images/Index_file/servisec__img-2.png");
+    }
+
+    &:nth-child(3) {
+        background-image: url("../images/Index_file/servisec__img-1.png");
+    }
+}
