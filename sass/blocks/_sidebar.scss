@@ -1,0 +1,86 @@
+.sidebar__inner__blocks{ 
+
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 140px;
+} 
+
+.sidebar__inner{ 
+
+    width: 100%; 
+    max-width: 762px; 
+    
+} 
+.sidebar__inner__title{ 
+margin: 0; 
+margin-bottom: 40px;
+    font-weight: 600;
+font-size: 46px;
+line-height: 63px;
+color: #424242;
+}  
+.sidebar__inner__images{ 
+
+    margin-left: 40px;
+}
+
+.sidebar__inner__text{  
+    margin-bottom: 50px;
+    width: 100%; 
+    max-width: 740px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424242;
+} 
+.sidebar__inner__ig{ 
+   width: 340px; 
+   height: 260px; 
+
+  &:nth-child(1){ 
+    margin-right: 40px;
+  }
+
+    
+}  
+
+.sidebar__inner__contactis{ 
+     margin-bottom: 50px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.sidebar__inner__cotactis__img{ 
+
+    &:nth-child(1){ 
+
+        margin-right: 40px;
+    }
+}
+.sidebar__inner__subtitle{ 
+
+    width: 100%; 
+    max-width: 360px; 
+    margin-right: 40px;
+} 
+
+.sidebar__inner__title{ 
+   margin-bottom: 40px;
+    font-weight: 600;
+font-size: 46px;
+line-height: 63px;
+color: #424242;
+} 
+.sidebar__inner__title-text{ 
+
+    font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #424242;
+} 
+
+.sidebar__xoll-images{ 
+
+    margin-bottom: 139px;
+}

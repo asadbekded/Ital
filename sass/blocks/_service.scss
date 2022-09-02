@@ -1,0 +1,111 @@
+.service__inner__title{ 
+
+    margin: 0; 
+    margin-bottom: 40px; 
+    font-weight: 600;
+font-size: 46px;
+line-height: 63px;
+color: #424242;
+} 
+
+.service__inner__list{ 
+     margin-bottom: 140px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    list-style: none; 
+    padding-left: 0;
+} 
+.service__inner__item{ 
+
+    width: 100%; 
+    max-width:260px ; 
+    margin-bottom: 40px;
+} 
+.service__inner__nambir{  
+    position: relative;
+  margin-left: 13px;
+    display: inline-block; 
+    font-weight: 400;
+font-size: 28px;
+line-height: 120%;
+color: #D8B152; 
+
+  &::before{  
+    position: absolute; 
+     top: 25px; 
+     bottom: 0; 
+     left: 55px;
+   width:180px ; 
+   height:2px ;
+    background-image: url("../images/Line-35.png"); 
+    background-repeat: no-repeat; 
+    content: '';
+  }
+
+} 
+
+.service__inner__text{ 
+    width: 100%;
+    max-width: 260px; 
+    font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #424242;
+} 
+
+.service__inner__content{ 
+     padding: 120px 0 142px;
+    background-color: #AEA38B;
+} 
+.service__inner__content__title{ 
+
+    margin: 0; 
+    margin-bottom: 20px; 
+    font-weight: 600;
+font-size: 46px;
+line-height: 63px;
+color: #FFFFFF;
+} 
+
+.service__inner__content__text{ 
+   margin-bottom: 60px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+} 
+.service__inner__form{ 
+
+    display: flex; 
+    justify-content: space-between;
+} 
+
+.service__inner__lable{  
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    width: 350px; 
+    padding: 18px 0 18px 22px; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+} 
+.service__inner__input{ 
+    
+    border: none; 
+    outline: none; 
+    background-color: transparent;
+} 
+.service__inner__but{  
+    padding: 18px 50px;
+    width: 350px;  
+    background: #D8B152; 
+    font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF; 
+border: none;
+
+}
