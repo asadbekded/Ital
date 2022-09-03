@@ -1,19 +1,34 @@
+// index file 
 
 @import "visually-hidden";
 @import "container";
 @import "header";
 @import "hero"; 
-@import "herohero"; 
-@import "xoll"; 
-@import "aside"; 
-@import "page"; 
-@import "sidebar"; 
-@import "widget"; 
-@import "sanuzel"; 
-@import "service";
-@import "hero";
-@import "servisec";
 @import "join";
 @import "footer";
+
+// index file 
+
+// media file 
+
+@import "servisec";
 @import "media.scss";
+
+// media file 
+
+// nagradi file 
+
+@import "wrap";
+
+// nagradi file 
+
+@import "herohero"; 
+@import "sanuzel"; 
+@import "aside"; 
+@import "xoll"; 
+@import "page"; 
+@import "sidebar"; 
+@import "service";
+@import "widget"; 
+
 
