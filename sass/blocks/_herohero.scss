@@ -21,19 +21,12 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-
-   &::before {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      width: 1120px;
-      height: 261px;
-      background-image: url("../images/bag-img-hero2.png");
-      background-repeat: no-repeat;
-      content: '';
-   }
+ 
+   background-image: url("../images/bag-img-hero2.png"); 
+   background-repeat: no-repeat; 
+   background-size: 1120px 261px; 
+   background-position: calc(50%) calc(50% + -110px);
+  
 }
 
 .hero__inner__blog__item {
@@ -128,4 +121,16 @@
    font-size: 18px;
    line-height: 150%;
    color: #424242;
+} 
+
+@media only screen and (max-width:570px){ 
+
+   .hero__inner__title{ 
+
+      width: 100%; 
+      max-width: 314px;
+      font-weight: 600;
+      font-size: 25px;
+       line-height: 34px;
+   }
 }
