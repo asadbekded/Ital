@@ -2,12 +2,12 @@
 @import "visually-hidden";
 @import "container";
 @import "header";
-@import "hero";
-@import "servisec";
+@import "hero"; 
 @import "join";
 @import "footer";
 
 // index file 
+
 
 // uslugi file 
 @import "./uslugi";
@@ -24,3 +24,34 @@
 // project file
 @import "./project"
 // project file
+
+
+// media file 
+
+@import "servisec";
+@import "media.scss";
+
+// media file 
+
+// nagradi file 
+
+@import "wrap";
+
+// nagradi file 
+
+@import "herohero"; 
+@import "sanuzel"; 
+@import "aside"; 
+@import "xoll"; 
+@import "page"; 
+@import "sidebar"; 
+@import "service";
+@import "widget"; 
+
+// otizivi page
+@import "otzivi"; 
+// publications page
+@import "public"; 
+
+
+
