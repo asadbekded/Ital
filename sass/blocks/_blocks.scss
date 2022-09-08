@@ -1,5 +1,4 @@
 // index file 
-
 @import "visually-hidden";
 @import "container";
 @import "header";
@@ -8,6 +7,24 @@
 @import "footer";
 
 // index file 
+
+
+// uslugi file 
+@import "./uslugi";
+// uslugi file
+
+// media file
+@import "./media";
+// media file 
+
+// about file
+@import "./about";
+// about file
+
+// project file
+@import "./project"
+// project file
+
 
 // media file 
 
@@ -35,5 +52,6 @@
 @import "otzivi"; 
 // publications page
 @import "public"; 
+
 
 
