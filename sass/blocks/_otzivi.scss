@@ -1,0 +1,115 @@
+.otzivi__section{
+    
+}
+.otzivi__title {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 137%;
+    /* identical to box height */
+
+
+    color: #424242;
+    margin-bottom: 389px;
+}
+
+.otzivi__people {
+    position: absolute;
+    top: 291px;
+    left: 280px;
+
+    margin: 0 auto;
+
+    width: 1400px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 149px;
+}
+
+.otzivi__btn {
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    padding: 13px 14px;
+    border-radius: 50%;
+    border: 1px solid #D8B152;
+    background-color: transparent;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.otzivi__btn:hover {
+
+    background-color: black;
+    color: #fff;
+}
+
+.otzivi__second__btn {
+    padding-left: 10px;
+    transform: rotate(-180deg);
+}
+.otzivi__form__inner{
+    padding-bottom: 140px;
+}
+.otzivi__form__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 136%;
+
+    color: #424242;
+    margin-bottom: 20px;
+
+}
+
+.otzivi__form__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 138%;
+    color: #424242;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.otzivi__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.otzivi__form__wrapper {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.otzivi__inp {
+    width: 100%;
+    padding: 18px;
+    border: 2px solid #AEA38B;
+    margin-bottom: 20px;
+}
+
+.otzivi__submit__btn {
+    width: 100%;
+     font-weight: 600;
+    font-size: 18px;
+    line-height: 138%;
+    text-align: center;
+    padding: 18px;
+
+    color: #FFFFFF;
+    background: #D8B152;
+    border: 1px solid transparent;
+}
+
+.otzivi__form__feedback{
+    width: 100%;
+    max-width: 740px;
+    border: 2px solid #AEA38B;
+    padding: 18px;
+    resize: none;
+}
